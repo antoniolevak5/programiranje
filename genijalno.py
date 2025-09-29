@@ -33,12 +33,12 @@ elif opcija == 4:
     R1 = int(input("Upiši otpor R1:"))
     R2 = int(input("Upiši otpor R2:"))
     Ruk = R1+R2
-    print(f"Zbroj serijskih otpornika je: {otpor} ohma")
+    print(f"Zbroj serijskih otpornika je: {Ruk} ohma")
 elif opcija == 5:
     print("Izračun za zbroj paralelnih otpornika")
     R1 = int(input("Upiši otpor R1:"))
     R2 = int(input("Upiši otpor R2:"))
     Ruk = 1/(1/R1+1/R2)
-    print(f"Zbroj paralelnih otpornika je: {otpor} ohma")
+    print(f"Zbroj paralelnih otpornika je: {Ruk} ohma")
 else:
     print("Pogrešan unos")
