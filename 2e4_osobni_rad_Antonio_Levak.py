@@ -9,7 +9,7 @@ while True:
     print("0. Izlaz iz programa")
     print("----------------------")    
     opcija = int(input("Izaberite operaciju (1 / 2 / 3 / 0):"))
-    #Struktura grananjna
+    #Struktura grananja
     if opcija == 1:   # == != < > <> >= <=
         print("Pretvarač volta(V) u milivolte(mV)")
         volt = float(input("Upiši napon (u V):"))
