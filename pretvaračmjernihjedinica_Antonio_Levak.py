@@ -1,5 +1,5 @@
 #Izbornik za pretvarač mjernih jedinica
-def ispisi_izbornik():
+def ispisi_izbornik():  #ovom naredbom uljepšavamo cjelokupni kod
     print("----------------------")
     print("Izbornik za pretvarač mjernih jedinica")
     print("----------------------")
@@ -55,4 +55,5 @@ while True:
         print("Hvala na korištenju. Doviđenja!")
         break #Ovom naredbom prekidamo while True petlju
     else:
+
         print("GREŠKA: Opcija ne postoji. Unesite broj od 0 do 3.")
